@@ -1,0 +1,292 @@
+body {
+    background-color: rgb(233, 217, 247);
+}
+
+.header {
+    padding: 10px;
+    grid-area: header;
+}
+
+.header__titulo{
+    color: rgb(133, 46, 214);
+    text-align: center;
+    font-size: 60px;
+}
+
+.nav{
+    grid-area: nav;
+
+}
+.nav a{
+    padding: 10px 8px;
+    position: relative;
+    font-size: 20px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.nav ul{
+    text-align: center;
+}
+
+.nav ul li{
+    display: inline;
+}
+
+.images11{
+    grid-area: images11;
+    display: flex;
+    justify-content: center;
+}
+
+.images22{
+    grid-area: images22;
+    display: flex;
+    justify-content: center;
+}
+
+.images33{
+    grid-area: images33;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.footer{
+    padding: 5px;
+    border: 2px solid #160e85;
+    border-radius: 10px;
+    font-size: 17px;
+    background-image: url(https://us.123rf.com/450wm/kazatin/kazatin1607/kazatin160700048/60141500-art%C3%ADculos-deportivos-zapatillas-de-deporte-ropa-deportiva-diferente-y-manzana-en-el-fondo-de-madera.jpg);
+    margin: 35px 0px 20px 0px;
+    width: 100%;
+    background-size: auto;
+    position: relative;
+    grid-area: footer;
+}
+
+
+
+.ayudarte{
+    width: 100%;
+    text-align: center;
+    background-color: #eea9d3;
+    padding: 20px 0px 20px 0px;
+    font-size: 30px;
+    padding: 50px;
+}
+
+.preguntasFrecuentes{
+    width: 100%;
+    text-align: center;
+    background-color: #eea9d3;
+    padding: 20px 0px 20px 0px; 
+    font-size: 30px;
+}
+
+.preguntasGenerales{
+    width: 100%;
+    text-align: center;
+    background-color: #eea9d3;
+    padding: 20px 0px 20px 0px; 
+    font-size: 30px;
+}
+
+.listadoPreguntas li{
+    display: inline;
+    padding: 20px 40px 20px 40px;
+    font-size: 20px;
+}
+
+.listaPreguntas li{
+    display: inline;
+    padding: 20px 100px 20px 40px;
+    font-size: 20px;
+}
+
+.ayuda{
+    width: 100%;
+    text-align: center;
+    background-color: #eea9d3;
+    padding: 20px 0px 20px 0px;
+    font-size: 30px;
+}
+
+.listaAyuda{
+    display: inline;
+    padding: 20px 40px 20px 40px;
+    font-size: 20px;
+}
+
+.formContacto{
+    border: 5px solid rgb(201, 109, 230);
+    padding: 30px 35px 30px 35px;
+    font-size: 25px;
+    width: 100%;
+    height: 100%;
+    width: fit-content;
+    margin: 02% 0% 04% 42%;
+    }
+
+
+
+.formContacto input{
+    font-size: 20px;
+}
+
+.formContacto select{
+    font-size: 20px;
+}
+
+#contacto{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(223, 138, 223);
+}
+
+h4 {
+    background-color: rgb(125, 90, 158);
+    width: fit-content;
+}
+
+span{
+    background-color: rgb(233, 218, 248);
+    display: inline-block;
+    border: 1.5px dashed #160e85 ;
+    font-size: 15px;
+    line-height: 1;
+}
+
+* { 
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+
+.mujer{
+    grid-area: mujer;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(156, 58, 156);
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    margin: auto;
+}
+
+.mBabuchas{
+    grid-area: mBabuchas;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(95, 13, 95);
+}
+
+.mCalzas{
+    grid-area: mCalzas;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(95, 13, 95);
+}
+
+.mRemeras{
+    grid-area: mRemeras;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(95, 13, 95);
+}
+
+.mTops{
+    grid-area: mTops;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(95, 13, 95);
+}
+
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(6,auto);
+    grid-template-areas: "header header"
+                         "nav nav"
+                         "images11 images11"
+                         "images22 images22"
+                         "images33 images33"
+                         "footer footer";
+}
+
+.contenedorMujer {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    height: 90vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(8,auto);
+    grid-template-areas: "header header"
+                         "nav nav"
+                         "mujer mujer"
+                         "mBabuchas mBabuchas"
+                         "mCalzas mCalzas"
+                         "mRemeras mRemeras"
+                         "mTops mTops"
+                         "footer footer"
+}
+
+
+/* Desktop MUJER*/
+@media screen and (min-width:1200px) {
+    .contenedorMujer {
+        width: 90%;
+        max-width: 1000px;
+        margin: 20px auto;
+        display: grid;
+        grid-gap: 20px;
+        height: 90vh;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 10% 5% 5% 1fr 1fr 23%;
+        grid-template-areas: "header header"
+                             "nav nav"
+                             "mujer mujer"
+                             "mBabuchas mCalzas"
+                             "mRemeras mTops"
+                             "footer footer"
+    }
+}
+
+/* Desktop Index */
+
+@media screen and (min-width:1200px) {
+    .contenedor {
+        width: 90%;
+        max-width: 1000px;
+        margin: 20px auto;
+        display: grid;
+        grid-gap: 20px;
+        height: 90vh;
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: repeat(6,auto);
+        grid-template-areas: "header header"
+                             "nav nav"
+                             "images11 images22"
+                             "images11 images22"
+                             "images33 images33"
+                             "footer footer"
+    }
+}
