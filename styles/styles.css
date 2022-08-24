@@ -11,10 +11,17 @@ body {
     color: rgb(133, 46, 214);
     text-align: center;
     font-size: 60px;
+    background-image: linear-gradient(to left,rgb(190, 133, 187), rgb(221, 181, 233), rgb(190, 133, 187) )
 }
+
+.logo{
+    transform: translate(20px, -1195px);
+}
+
 
 .nav{
     grid-area: nav;
+
 
 }
 .nav a{
@@ -33,10 +40,20 @@ body {
     display: inline;
 }
 
+.nav ul li a{
+    transition: color 1.0s, font-size 1.5s;
+    color: rgb(190, 133, 187);
+}
+
+.nav ul li a:hover{
+    color: rgb(187, 9, 223);
+    font-size: 22px;
+}
 .images11{
     grid-area: images11;
     display: flex;
     justify-content: center;
+    transition: all 1s ease-in-out;
 }
 
 .images22{
@@ -51,7 +68,16 @@ body {
     justify-content: center;
 }
 
+.imagess33{
+    width: 700px;
+    height: 400px;
+    transition: all 1s ease-in-out;
+}
 
+.imagess33:hover{
+    width: 850px;
+    height: 400px;
+}
 
 .footer{
     padding: 5px;
