@@ -1,0 +1,4 @@
+Hola! 
+En la pagina de mujer.html aplique los extends %flexRow Center y %textoColor. 
+En todos los html utilice map-get para el header aplicado en _maps.scss como $borders, tambien utilice map-get para el footer aplicado en _maps.scss como $textalign.
+En la pagina de mujer.html aplique los mixin
