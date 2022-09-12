@@ -1,3 +1,14 @@
+.texto3, .texto1, .texto2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto2 {
+  color: rgb(156, 138, 173);
+}
+
 footer {
   text-align: left;
 }
@@ -7,6 +18,20 @@ footer .redes a {
 }
 footer .redes a:hover {
   color: rgb(128, 30, 152);
+}
+
+header {
+  border-bottom: 3px solid rgb(183, 50, 203);
+}
+
+.texto1 {
+  background-color: rgb(224, 203, 243);
+  color: rgb(156, 138, 173);
+}
+
+.texto3 {
+  background-color: rgb(216, 181, 247);
+  color: rgb(156, 138, 173);
 }
 
 body header h1 {
